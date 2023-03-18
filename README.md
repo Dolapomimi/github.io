@@ -1,6 +1,6 @@
-# googlecapstoneProject-Cyclistic
+# GooglecapstoneProject-Cyclistic
 
-INTRODUCTION
+### INTRODUCTION
 
 This is the Cyclistic bikers data analysis,
 
@@ -8,7 +8,8 @@ I am a junior business analyst working in the marketing analyst team at Cyclisti
 
 The director of marketing believes the company’s future success depends on maximizing the number of annual membership. Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently.
 
-BUSINESS TASK
+### BUSINESS TASK
+
 To design marketing strategies aimed at converting casual riders into annual members, how? 
 1. By understanding how annual members and casual riders use bikes differently,
 
@@ -16,5 +17,5 @@ To design marketing strategies aimed at converting casual riders into annual mem
 
 3. understanding how digital media could affect our marketing tactics.
 
-GOAL
+#### GOAL
 Maximize the number of annual membership.
