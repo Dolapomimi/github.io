@@ -55,13 +55,13 @@ First
 
 - Now I will clean the data by
 
-removing null values using na.omit function,
+1. removing null values using na.omit function,
 
-remove duplicates using distinct function,
+2. remove duplicates using distinct function,
 
-removing errors from my new column (ride length where the duration is a negative figure or 0 and 
+3. removing errors from my new column (ride length where the duration is a negative figure or 0 and 
 
-lastly, remove irrelevant columns.
+4. lastly, remove irrelevant columns.
 
 - I changed the ride length data type to numeric using as.numeric function so calcula6tions can be done on my data.
 
