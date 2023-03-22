@@ -79,7 +79,7 @@ Now my data has been processed and it is ready for analysis, i used groupby(), f
 10. by month and
 11. by season.
 
-Grouping by casual riders and annual members to see differences in the way the used the bikesI also did an average aggregate on each of the items above
+ Grouping by casual riders and annual members to see differences in the way the used the bikes. I also did an average aggregate on each of the items above
 (The codes are in my script).
 
 ### LINKS
