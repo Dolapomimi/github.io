@@ -83,7 +83,7 @@ Now my data has been processed and it is ready for analysis, i used groupby(), f
 (The codes are in my script).
 
 ### LINKS
-Please click on this link to view my summary analysis, visulization and Business recommendation, [CYCLISTIC.pdf](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/files/11039164/CYCLISTIC.pdf)
+Please click on this link to view my summary analysis, visulization and Business recommendation, [CYCLISTIC.pdf](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/files/11039415/CYCLISTIC.pdf)
 
 
 To view the R script- [Cylistics.R](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/blob/main/Cylistics.R)
