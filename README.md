@@ -26,7 +26,7 @@ In this Project, I prepared, processed, analyzed the data using R, visualized th
 The data that would be used for analysis is Cyclistic historical trip data from the paszt 12 months (Jan 2022 -Dec 2022) https://divvy-tripdata.s3.amazonaws.com/index.html made available by Motivation International Inc.
 
 I have downloaded the data and opened in Excel spreadsheet, it is very large but structured with each columns having headers, same datatype in each column. Saved in csv format.
-The integrity of the data is not verified, The data has up to date records of trips for analyzing historic data. The data has null values in some rows and duplicates. I would have to filter and sort the data but I would not using Excel for this.
+The integrity of the data is not verified. The data has up-to-date records of trips for analyzing historical data. The data has null values in some rows and duplicates. I would have to filter and sort the data but I would not be using Excel for this.
 
 ### PROCESS DATA
 I am using R for processing and analyzing, because the dataset is very large and R Studio is an IDE, so my can work will be fast and I can do all of the work on here.
