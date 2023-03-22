@@ -24,5 +24,6 @@ In this Project, I prepared, processed, analyzed the data using R, visualized th
 
 ### LINKS
 Please click on this link to view my summary analysis, visulization and Business recommendation, [CYCLISTIC.pdf](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/files/11030918/CYCLISTIC.pdf)
-To view the script- https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/blob/main/Cylistics.R
+
+To view the R script- https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/blob/main/Cylistics.R
 
