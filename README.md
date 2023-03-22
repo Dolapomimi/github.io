@@ -22,13 +22,13 @@ Maximize the number of annual membership.
 ####
 In this Project, I prepared, processed, analyzed the data using R, visualized the insights gotten from the data and gave business recommendations and markeking strategies.
 
-#### PREPARE DATA
+### PREPARE DATA
 The data that would be used for analysis is Cyclistic historical trip data from the paszt 12 months (Jan 2022 -Dec 2022) https://divvy-tripdata.s3.amazonaws.com/index.html made available by Motivation International Inc.
 
 I have downloaded the data and opened in Excel spreadsheet, it is very large but structured with each columns having headers, same datatype in each column. Saved in csv format.
 The integrity of the data is not verified, The data has up to date records of trips for analyzing historic data. The data has null values in some rows and duplicates. I would have to filter and sort the data but I would not using Excel for this.
 
-#### PROCESS DATA
+### PROCESS DATA
 I am using R for processing and analyzing, because the dataset is very large and R Studio is an IDE, so my can work will be fast and I can do all of the work on here.
 First 
 - I would load useful packages in R studio for my data.
@@ -65,7 +65,8 @@ First
 
 - I changed the ride length data type to numeric using as.numeric function so calcula6tions can be done on my data.
 
-ANALYZE
+### ANALYZE
+
 Now my data has been processed and it is ready for analysis, i used groupby(), filter(), count(), summarize(), print() functions for my analysis. I also used the mean() function for aggregating. I did calculations for
 
 1. total rides,
