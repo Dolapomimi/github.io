@@ -22,6 +22,65 @@ Maximize the number of annual membership.
 ####
 In this Project, I prepared, processed, analyzed the data using R, visualized the insights gotten from the data and gave business recommendations and markeking strategies.
 
+#### PREPARE DATA
+The data that would be used for analysis is Cyclistic historical trip data from the paszt 12 months (Jan 2022 -Dec 2022) https://divvy-tripdata.s3.amazonaws.com/index.html made available by Motivation International Inc.
+
+I have downloaded the data and opened in Excel spreadsheet, it is very large but structured with each columns having headers, same datatype in each column. Saved in csv format.
+The integrity of the data is not verified, The data has up to date records of trips for analyzing historic data. The data has null values in some rows and duplicates. I would have to filter and sort the data but I would not using Excel for this.
+
+#### PROCESS DATA
+I am using R for processing and analyzing, because the dataset is very large and R Studio is an IDE, so my can work will be fast and I can do all of the work on here.
+First 
+- I would load useful packages in R studio for my data.
+
+- Now that my packages are loaded, I will download the csv files using function read.csv under ‘readr’ package in Tidyverse.
+
+- Merge all the dataframes into one, To create more space, i will use the remove function to delete the individual csv files. To keep the original dataframe, I will create a new one to work on.
+
+- manipulate the data by adding these columns for a more comprehensive analysis
+
+1. date,
+
+2. hour,
+
+3. day of week,
+
+4. days,
+
+5. month.
+
+- I will add a new column ‘season’ using mutate function on the Month column - summer, winter, fall, spring. Also, another new column for time of day created from the hour column using mutate function - morning, afternoon, evening, night
+
+- Next, is a calculation to get the ride length of each ride by subtracting ended_at from started_at and change the duration to minute.
+
+- Now I will clean the data by
+
+removing null values using na.omit function,
+
+remove duplicates using distinct function,
+
+removing errors from my new column (ride length where the duration is a negative figure or 0 and 
+
+lastly, remove irrelevant columns.
+
+- I changed the ride length data type to numeric using as.numeric function so calcula6tions can be done on my data.
+
+ANALYZE
+Now my data has been processed and it is ready for analysis, i used groupby(), filter(), count(), summarize(), print() functions for my analysis. I also used the mean() function for aggregating. I did calculations for
+
+1. total rides,
+2. count of member type,
+3. count of rideable bikes,
+6. count of rides per hour,
+7. by time of day,
+8. by day of week,
+9. by day,
+10. by month and
+11. by season.
+
+Grouping by casual riders and annual members to see differences in the way the used the bikesI also did an average aggregate on each of the items above
+(The codes are in my script).
+
 ### LINKS
 Please click on this link to view my summary analysis, visulization and Business recommendation, [CYCLISTIC.pdf](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/files/11039164/CYCLISTIC.pdf)
 
