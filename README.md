@@ -23,7 +23,8 @@ Maximize the number of annual membership.
 In this Project, I prepared, processed, analyzed the data using R, visualized the insights gotten from the data and gave business recommendations and markeking strategies.
 
 ### LINKS
-Please click on this link to view my summary analysis, visulization and Business recommendation, [CYCLISTIC.pdf](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/files/11030918/CYCLISTIC.pdf)
+Please click on this link to view my summary analysis, visulization and Business recommendation, [CYCLISTIC.pdf](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/files/11039164/CYCLISTIC.pdf)
 
-To view the R script- https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/blob/main/Cylistics.R
+
+To view the R script- [Cylistics.R](https://github.com/Dolapomimi/googlecapstoneProject-Cyclistic/blob/main/Cylistics.R)
 
